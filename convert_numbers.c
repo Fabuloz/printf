@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * convert_b - Converts an unsigned int argument to binary
  *             and stores it to a buffer contained in a struct.
