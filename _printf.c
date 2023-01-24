@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 		return (-1);
 	for (p = format; *p; p++)
 	{
-		if (*p == '%')// Collaborators: Emmanuel Adeniji and Omoniyi Jesuferanmi
+		if (*p == '%')
 		{
 			p++;
 			if (*p == '%')
