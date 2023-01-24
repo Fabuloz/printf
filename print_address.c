@@ -9,7 +9,7 @@
  */
 int print_address(va_list l, flags_t *f)
 {
-	char *str;
+	char *str; //Emmanuel Adeniji
 	unsigned long int p = va_arg(l, unsigned long int);
 
 	register int count = 0;
@@ -18,7 +18,7 @@ int print_address(va_list l, flags_t *f)
 
 	if (!p)
 		return (_puts("(nil)"));
-	str = convert(p, 16, 1);
+	str = convert(p, 16, 1);//Omoniyi Jesuferanmi
 	count += _puts("0x");
 	count += _puts(str);
 	return (count);
