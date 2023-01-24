@@ -1,2 +1,2 @@
 0x11. C - printf (Team Project)
-Collaborators: Emmanuel Adeniji, Omoniyi Jesuferanmi
+Collaborators: Emmanuel Adeniji and Omoniyi Jesuferanmi
